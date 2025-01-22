@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  npm:
+    image: jc21/nginx-proxy-manager:latest
+    container_name: server
+    restart: unless-stopped
+    ports:
+      - "80:80"    # HTTP
+      - "443:443"  # HTTPS
+      - "81:81"    # Admin UI
+    environment:
+      PUID: 1000  # User ID (fix permission issues)
+      PGID: 1000  # Group ID
+      NODE_ENV: production
+      DB_SQLITE_FILE: "/data/database.sqlite"
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+    networks:
+      - npm_network
+
+networks:
+  npm_network:
+    driver: bridge

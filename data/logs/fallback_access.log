@@ -1,0 +1,4 @@
+[22/Jan/2025:18:13:28 +0000] 200 - GET http ojassolutions.com.np "/" [Client 172.70.131.212] [Length 568] [Gzip 1.86] "curl/7.61.1" "-"
+[22/Jan/2025:18:13:36 +0000] 400 - - http localhost-nginx-proxy-manager "-" [Client 64.23.218.208] [Length 154] [Gzip -] "-" "-"
+[22/Jan/2025:18:14:39 +0000] 200 - GET http youthcongressnepal.com "/" [Client 165.22.228.211] [Length 568] [Gzip 1.86] "Mozilla/5.0 (compatible)" "-"
+[22/Jan/2025:18:14:39 +0000] 400 - GET http youthcongressnepal.com "/favicon.ico" [Client 127.0.0.1] [Length 230] [Gzip -] "-" "-"

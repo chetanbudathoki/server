@@ -1,0 +1,4 @@
+2025/01/22 18:12:13 [warn] 1767#1767: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /etc/nginx/nginx.conf:4
+2025/01/22 18:12:24 [warn] 1767#1767: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /etc/nginx/nginx.conf:4
+2025/01/22 18:12:24 [warn] 1767#1767: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /etc/nginx/nginx.conf:4
+2025/01/22 18:12:24 [warn] 1767#1767: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /etc/nginx/nginx.conf:4

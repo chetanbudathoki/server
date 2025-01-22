@@ -14,6 +14,3 @@ This project sets up **Nginx Proxy Manager** to manage reverse proxy configurati
 | 81   | **Nginx Proxy Manager UI**    | Admin interface for Nginx Proxy    |
 | 8001   | **youthcongressnepal.com**    | for project: youthcongressnepal.com    |
 
-
-## 📂 Project Structure
-
